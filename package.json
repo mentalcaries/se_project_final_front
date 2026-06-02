@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://yoshieon.github.io/se_project_final_front/",
+  "homepage": "https://mentalcaries.github.io/se_project_final_front/",
   "scripts": {
     "dev": "vite --open",
     "build": "vite build",

@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { HashRouter, Routes, Route } from 'react-router-dom'
 import { useState, useEffect } from 'react'
 import Header from './components/Header.jsx'
 import Footer from './components/Footer.jsx'
@@ -106,7 +106,7 @@ function App() {
   const savedArticleUrls = savedArticles.map((saved) => saved.url)
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="app-shell">
         <Header onAuthChange={handleAuthChange} isLoggedIn={isLoggedIn} />
         <main className="app-content">
@@ -143,7 +143,7 @@ function App() {
         </main>
         <Footer />
       </div>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 

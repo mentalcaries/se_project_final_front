@@ -6,6 +6,6 @@ export default defineConfig({
   base: "/se_project_final_front/",
   plugins: [react()],
   server: {
-    port: 3001,
+    port: 3000,
   },
 });
